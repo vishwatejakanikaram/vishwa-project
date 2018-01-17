@@ -14,7 +14,7 @@ public class AxEmployee {
 	
 	@Id
 	@Column(name="eid")
-	@GeneratedValue ( strategy = GenerationType.SEQUENCE)
+	@GeneratedValue ( strategy = GenerationType.AUTO)
 	private int axEmpId;
 	
 	@Column(name="ename")
